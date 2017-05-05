@@ -1,0 +1,369 @@
+﻿Build started 02/05/2017 19:18:26.
+     1>Project "E:\TesteGL\TesteGL\TesteGL.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="14.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Touching "x64\Debug\TesteGL.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\TesteGL.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\TesteGL.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt Actor.cpp Animator.cpp Application.cpp AttrVector3.cpp Barn.cpp BlockingInterpolator.cpp BodyMember.cpp Camera.cpp Carro.cpp Controller.cpp Cow.cpp Cubo.cpp Dama.cpp Entity.cpp Fence.cpp GenericActor.cpp Headphone.cpp House.cpp Interpolator.cpp Joint.cpp Light.cpp LinearInterpolator.cpp Material.cpp Matrix.cpp Model.cpp OBJLoader.cpp Object.cpp Peao.cpp PerlinNoise.cpp Pessoa.cpp PolinomialInterpolator.cpp PolynomInterpolator.cpp PoseAttr.cpp QuatUtils.cpp RigidBody.cpp Robot.cpp Shader.cpp TesteGL.cpp TextureLoader.cpp Tree.cpp Utilities.cpp VBO.cpp
+         VBO.cpp
+         Utilities.cpp
+     1>Utilities.cpp(11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         Tree.cpp
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+         TextureLoader.cpp
+         TesteGL.cpp
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\RigidBody.h(26): error C2864: 'RigidBody::fDragForce' : only static const integral data members can be initialized within a class
+     1>TesteGL.cpp(108): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>TesteGL.cpp(117): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Shader.cpp
+         Robot.cpp
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+         RigidBody.cpp
+     1>e:\testegl\testegl\RigidBody.h(26): error C2864: 'RigidBody::fDragForce' : only static const integral data members can be initialized within a class
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+         QuatUtils.cpp
+         PoseAttr.cpp
+         PolynomInterpolator.cpp
+     1>PolynomInterpolator.cpp(73): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         PolinomialInterpolator.cpp
+     1>PolinomialInterpolator.cpp(72): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>PolinomialInterpolator.cpp(87): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>PolinomialInterpolator.cpp(90): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>PolinomialInterpolator.cpp(97): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>PolinomialInterpolator.cpp(100): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>PolinomialInterpolator.cpp(109): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Pessoa.cpp
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+         PerlinNoise.cpp
+     1>PerlinNoise.cpp(19): error C2059: syntax error : '{'
+     1>PerlinNoise.cpp(19): error C2143: syntax error : missing ';' before '{'
+     1>PerlinNoise.cpp(31): error C2143: syntax error : missing ';' before '}'
+     1>PerlinNoise.cpp(47): error C2039: 'shuffle' : is not a member of 'std'
+     1>PerlinNoise.cpp(47): error C3861: 'shuffle': identifier not found
+         Peao.cpp
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+         Object.cpp
+         OBJLoader.cpp
+     1>OBJLoader.cpp(172): warning C4018: '<' : signed/unsigned mismatch
+     1>OBJLoader.cpp(207): warning C4018: '<' : signed/unsigned mismatch
+         Model.cpp
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Controller.h(15): error C2864: 'Controller::position' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Controller.h(17): error C2864: 'Controller::horizontalAngle' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Controller.h(19): error C2864: 'Controller::verticalAngle' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Controller.h(21): error C2864: 'Controller::initialFoV' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Controller.h(23): error C2864: 'Controller::speed' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Controller.h(24): error C2864: 'Controller::mouseSpeed' : only static const integral data members can be initialized within a class
+     1>Model.cpp(115): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>Model.cpp(215): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+         Matrix.cpp
+     1>Matrix.cpp(12): warning C4018: '<' : signed/unsigned mismatch
+     1>Matrix.cpp(14): warning C4018: '<' : signed/unsigned mismatch
+     1>Matrix.cpp(28): warning C4018: '<=' : signed/unsigned mismatch
+     1>Matrix.cpp(29): warning C4018: '<=' : signed/unsigned mismatch
+     1>Matrix.cpp(54): warning C4018: '<=' : signed/unsigned mismatch
+     1>Matrix.cpp(55): warning C4018: '<=' : signed/unsigned mismatch
+     1>Matrix.cpp(58): warning C4018: '<=' : signed/unsigned mismatch
+     1>Matrix.cpp(65): warning C4018: '<=' : signed/unsigned mismatch
+         Material.cpp
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+         Generating Code...
+         Compiling...
+         LinearInterpolator.cpp
+         Light.cpp
+         Joint.cpp
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+         Interpolator.cpp
+         House.cpp
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+         Headphone.cpp
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+         GenericActor.cpp
+         Fence.cpp
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+         Entity.cpp
+         Dama.cpp
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+         Cubo.cpp
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+         Cow.cpp
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+         Controller.cpp
+     1>e:\testegl\testegl\Controller.h(15): error C2864: 'Controller::position' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Controller.h(17): error C2864: 'Controller::horizontalAngle' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Controller.h(19): error C2864: 'Controller::verticalAngle' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Controller.h(21): error C2864: 'Controller::initialFoV' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Controller.h(23): error C2864: 'Controller::speed' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Controller.h(24): error C2864: 'Controller::mouseSpeed' : only static const integral data members can be initialized within a class
+     1>Controller.cpp(45): error C2059: syntax error : '{'
+     1>Controller.cpp(45): error C2143: syntax error : missing ';' before '{'
+     1>Controller.cpp(49): error C2143: syntax error : missing ';' before '}'
+         Carro.cpp
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+         Camera.cpp
+         BodyMember.cpp
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+         BlockingInterpolator.cpp
+         Barn.cpp
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>E:\TesteGL\TesteGL\includes\GLFW/glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+         AttrVector3.cpp
+         Application.cpp
+     1>e:\testegl\testegl\Application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(101): error C2864: 'Application::lookAt' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(102): error C2864: 'Application::camPosition' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(103): error C2864: 'Application::target' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(104): error C2864: 'Application::camera' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Application.h(105): error C2864: 'Application::light' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Controller.h(15): error C2864: 'Controller::position' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Controller.h(17): error C2864: 'Controller::horizontalAngle' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Controller.h(19): error C2864: 'Controller::verticalAngle' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Controller.h(21): error C2864: 'Controller::initialFoV' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Controller.h(23): error C2864: 'Controller::speed' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\Controller.h(24): error C2864: 'Controller::mouseSpeed' : only static const integral data members can be initialized within a class
+         Generating Code...
+         Compiling...
+         Animator.cpp
+         Actor.cpp
+         Generating Code...
+     1>Done Building Project "E:\TesteGL\TesteGL\TesteGL.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:01:30.30

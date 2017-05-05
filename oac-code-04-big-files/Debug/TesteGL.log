@@ -1,0 +1,228 @@
+﻿Build started 02/05/2017 19:30:16.
+     1>Project "E:\TesteGL\TesteGL\TesteGL.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="14.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Touching "Debug\TesteGL.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W0 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D _UNICODE /D UNICODE /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\TesteGL.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp Barn.cpp BodyMember.cpp Carro.cpp Controller.cpp Cow.cpp Cubo.cpp Dama.cpp Fence.cpp Headphone.cpp House.cpp Joint.cpp Material.cpp Model.cpp Peao.cpp PerlinNoise.cpp Pessoa.cpp RigidBody.cpp Robot.cpp TesteGL.cpp Tree.cpp
+         Tree.cpp
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+         TesteGL.cpp
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\rigidbody.h(26): error C2864: 'RigidBody::fDragForce' : only static const integral data members can be initialized within a class
+         Robot.cpp
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+         RigidBody.cpp
+     1>e:\testegl\testegl\rigidbody.h(26): error C2864: 'RigidBody::fDragForce' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+         Pessoa.cpp
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+         PerlinNoise.cpp
+     1>e:\testegl\testegl\perlinnoise.cpp(19): error C2059: syntax error : '{'
+     1>e:\testegl\testegl\perlinnoise.cpp(19): error C2143: syntax error : missing ';' before '{'
+     1>e:\testegl\testegl\perlinnoise.cpp(31): error C2143: syntax error : missing ';' before '}'
+     1>e:\testegl\testegl\perlinnoise.cpp(47): error C2039: 'shuffle' : is not a member of 'std'
+     1>e:\testegl\testegl\perlinnoise.cpp(47): error C3861: 'shuffle': identifier not found
+         Peao.cpp
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+         Model.cpp
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.h(15): error C2864: 'Controller::position' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.h(17): error C2864: 'Controller::horizontalAngle' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.h(19): error C2864: 'Controller::verticalAngle' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.h(21): error C2864: 'Controller::initialFoV' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.h(23): error C2864: 'Controller::speed' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.h(24): error C2864: 'Controller::mouseSpeed' : only static const integral data members can be initialized within a class
+         Material.cpp
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+         Joint.cpp
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+         House.cpp
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+         Headphone.cpp
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+         Fence.cpp
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+         Dama.cpp
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+         Cubo.cpp
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+         Cow.cpp
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+         Controller.cpp
+     1>e:\testegl\testegl\controller.h(15): error C2864: 'Controller::position' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.h(17): error C2864: 'Controller::horizontalAngle' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.h(19): error C2864: 'Controller::verticalAngle' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.h(21): error C2864: 'Controller::initialFoV' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.h(23): error C2864: 'Controller::speed' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.h(24): error C2864: 'Controller::mouseSpeed' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.cpp(45): error C2059: syntax error : '{'
+     1>e:\testegl\testegl\controller.cpp(45): error C2143: syntax error : missing ';' before '{'
+     1>e:\testegl\testegl\controller.cpp(49): error C2143: syntax error : missing ';' before '}'
+         Carro.cpp
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+         BodyMember.cpp
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+         Barn.cpp
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3787): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(3807): error C2872: 'uint64_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(60) : _ULonglong uint64_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(918) : glm::uint64_t'
+     1>e:\testegl\testegl\includes\glfw\glfw3.h(4093): error C2872: 'uint32_t' : ambiguous symbol
+                 could be 'c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23) : unsigned int uint32_t'
+                 or       'e:\testegl\testegl\includes\glm\fwd.hpp(914) : glm::uint32_t'
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+         Generating Code...
+         Compiling...
+         Application.cpp
+     1>e:\testegl\testegl\application.h(36): error C2864: 'Application::mat_4' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.h(15): error C2864: 'Controller::position' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.h(17): error C2864: 'Controller::horizontalAngle' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.h(19): error C2864: 'Controller::verticalAngle' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.h(21): error C2864: 'Controller::initialFoV' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.h(23): error C2864: 'Controller::speed' : only static const integral data members can be initialized within a class
+     1>e:\testegl\testegl\controller.h(24): error C2864: 'Controller::mouseSpeed' : only static const integral data members can be initialized within a class
+         Generating Code...
+     1>Done Building Project "E:\TesteGL\TesteGL\TesteGL.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:01:05.69
